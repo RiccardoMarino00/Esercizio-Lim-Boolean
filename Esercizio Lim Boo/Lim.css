@@ -1,0 +1,71 @@
+/* selettore{
+  proprietà: valore;
+  proprietà: valore;
+} */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Contenitore{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+  padding: 20px;
+  height: 810px;
+  width: 1000px;
+  margin: auto;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  color: rgba(3, 255, 0, 0.8);
+}
+
+nav{
+  text-align: center;
+  background-color: rgba(3, 255, 0, 0.8);
+  padding: 9px;
+  width: 850px;
+  margin: auto;
+}
+
+main{
+  width: 1220px;
+  margin: auto;
+  padding: 8px;
+  color: white;
+  line-height: 0.3;
+}
+
+h2{
+  display: inline-block;
+}
+
+.Arancio{
+  color: orange;
+  background-color: rgba(249, 186, 55, 0.78);
+  width: 270px;
+  height: 25px;
+  border-radius: 5%;
+}
+
+.Verde{
+  color: green;
+  background-color: rgba(19, 197, 0, 0.91);
+  width: 400px;
+  height: 25px;
+  border-radius: 5%;
+}
+
+.Rosso{
+  color: red;
+  background-color: rgba(220, 42, 42, 0.8);
+  width: 100px;
+  height: 25px;
+  border-radius: 5%;
+}
